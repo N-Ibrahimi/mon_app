@@ -6,7 +6,7 @@
       <h3>Merci de rempir le formulaire et envoyer ton message</h3>
       <p>bien evidemment pour qu'on puisse te repondre, il nous faut ton adresse mail  😉  </p>
       <br>
-		<form>
+		<!-- <form>
 		  <div class="form-row">
 		    <div class="col">
 		      <input type="text" class="form-control" placeholder="First name">
@@ -20,20 +20,31 @@
 		    <textarea name="message" form="message" rows="10" cols="50">Enter text here...</textarea><br><br>
      		 <input type="submit" value="Envoyer">
 		  </div>
-		</form>
-
-
-
-<!-- 
-    <form action="/" method="post">
-      First name:<br>
-      <input type="text" name="firstname"><br>
-      Last name:<br>
-      <input type="text" name="lastname"><br>
-      Email:<br>
-      <input type="text" name="email"><br>
-      Message:<br>
-      
-    </form> 
+		</form> -->
+<form>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">First name</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Nasim">
+    </div>
+    <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Last name</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Ibrahimi">
+    </div>
   </div>
- -->
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="exemple@exemple.com">
+    </div>
+  </div>
+  <textarea name="message" form="message" rows="10" cols="50">Enter text here...</textarea><br><br>
+     		 <input type="submit" value="Envoyer">
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </div>
+  </div>
+</form>
+
